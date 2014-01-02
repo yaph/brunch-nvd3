@@ -1,11 +1,11 @@
 {
-  "name": "brunch-choropleth",
+  "name": "brunch-nvd3",
   "version": "0.0.1",
-  "homepage": "https://github.com/yaph/brunch-choropleth",
+  "homepage": "https://github.com/yaph/brunch-nvd3",
   "authors": [
     "Ramiro Gómez <code@ramiro.org>"
   ],
-  "description": "A Brunch skeleton for creating choropleth maps with D3.",
+  "description": "A Brunch skeleton for creating charts with nvd3.",
   "license": "MIT",
   "ignore": [
     "**/.*",
@@ -18,9 +18,7 @@
     "d3": "~3.3.9",
     "modernizr": "~2.6.2",
     "queue-async": "~1.0.4",
-    "d3.geo.projection.v0.js": "http://d3js.org/d3.geo.projection.v0.js",
-    "colorbrewer": "~1.0.0",
-    "topojson": "~1.4.4"
+    "nvd3": "~1.1.15-beta"
   },
   "overrides": {
     "modernizr": {
